@@ -13,7 +13,7 @@ int main()
     {
         drawBoard();
         player=(player%2)?1:2;
-        printf("Player %d enter the choice : ",player);
+        printf("Player %d enter your choice x or o : ",player);
         scanf("%d",&choice);
         mark =(player==1)?'X':'O';
         if(choice==1 && square[1]=='1')
